@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  text-decoration: underline;
+}
+
+/* MAP like Google Maps */
+#map {
+  height: calc(100vh - 120px); /* navbar + footer */
+  width: 100%;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #111827;
+  color: white;
+  padding: 15px 20px;
+  font-size: 14px;
+}
+
+.footer-right {
+  text-align: right;
+}
